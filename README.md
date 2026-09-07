@@ -61,6 +61,8 @@ python -m src.viewer3d "<構造ID>"          # 対話的3DビューHTML
 
 テスト: `python -m pytest tests/`
 
+**Windowsでの再現**: `docs/setup_windows.md` 参照（GCMC部分はWSL2必須）
+
 ### 5. 資料のpptx変換（任意）
 
 ```bash

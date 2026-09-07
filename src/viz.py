@@ -42,7 +42,9 @@ def apply_style() -> None:
             "axes.axisbelow": True,
             "axes.spines.top": False,
             "axes.spines.right": False,
-            "font.family": ["Hiragino Sans", "Hiragino Kaku Gothic ProN", "sans-serif"],
+            # 日本語フォント: macOS → Linux/WSL2 → Windows の順にフォールバック
+            "font.family": ["Hiragino Sans", "Noto Sans CJK JP", "IPAexGothic",
+                            "Yu Gothic", "Meiryo", "sans-serif"],
             "font.size": 10,
             "axes.titlesize": 11,
             "axes.titleweight": "bold",
