@@ -29,6 +29,3 @@ docs/rpt.*.png
 CSD-modified.zip
 docs/*.pptx
 docs/report_build/
-
-# 論文からの転載図（ライセンス上リポジトリに含めない）
-docs/report_assets/moosavi2020_*.png
