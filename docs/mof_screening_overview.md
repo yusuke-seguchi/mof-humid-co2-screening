@@ -9,7 +9,12 @@ style: |
   table { font-size: 18px; }
   h1 { color: #1a5276; }
   h2 { color: #1a5276; }
+  section.dense { font-size: 18px; }
+  section.dense h1 { font-size: 34px; }
+  section.dense h2 { font-size: 26px; }
 ---
+
+<!-- _class: dense -->
 
 # 湿潤排ガスCO₂回収向け MOFスクリーニング計画
 
